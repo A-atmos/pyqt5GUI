@@ -8,6 +8,9 @@ def window():
     win.setGeometry(100, 70, 500 ,500)
     win.setWindowTitle('Just a try!')
 
+    label = QtWidgets.QLabel(win)
+    label.setText('Label')
+    label.move(50,50)
     win.show()
     sys.exit(app.exec_())
 
