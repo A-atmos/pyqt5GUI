@@ -14,6 +14,7 @@ from PyQt5 import QtCore, QtGui, QtWidgets
 class Ui_MainWindow(object):
     def setupUi(self, MainWindow):
         MainWindow.setObjectName("MainWindow")
+        # MainWindow.setWindowTitle("Try")
         MainWindow.resize(571, 413)
 
         font = QtGui.QFont()
@@ -74,7 +75,7 @@ class Ui_MainWindow(object):
 
     def retranslateUi(self, MainWindow):
         _translate = QtCore.QCoreApplication.translate
-        MainWindow.setWindowTitle(_translate("MainWindow", "MainWindow"))
+        MainWindow.setWindowTitle(_translate("MainWindow", "Try!!"))
         self.label.setText(_translate("MainWindow", "Here you go"))
         self.pushButton.setText(_translate("MainWindow", "Press Me!!"))
         self.menuFile.setTitle(_translate("MainWindow", "File"))
